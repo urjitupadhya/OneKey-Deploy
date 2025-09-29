@@ -5,19 +5,24 @@
   <img src="https://img.shields.io/badge/built%20with-javascript-yellow?logo=javascript" alt="JS Badge">
 </p>
 
+## 🌐 Online Editor
+
+Edit this project directly in your browser:
+
+- https://orange-sniffle-5gqx9v566gjx37rgq.github.dev/
+
  ## 🔥 Quick 3‑Command Setup
- 
- ```bash
- npm install -g pulstack
- >> pulstack init
- >> pulstack deploy --dir site --target vercel
- ```
+  
+  ```bash
+  npm install -g pulstack
+  >> pulstack init
+  >> pulstack deploy --dir site --target vercel
+  ```
  
 ## 🧑‍💻 Who Is This For?
  
 - Have a static or front‑end web project
 - Want quick deployment to Vercel without signing in via browser
-- Need a simple CLI workflow for demos, hackathons, or prototypes
  ## ✨ Features
  
  - 🚀 Auto‑detects your project framework: HTML, React, Next.js
