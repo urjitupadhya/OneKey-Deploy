@@ -1,17 +1,17 @@
 {
-  "name": "pulstack",
+  "name": "onekey-deploy",
   "version": "1.0.0",
-  "description": "`pulstack` is a developer-friendly tool that lets you deploy static websites to AWS (S3 + CloudFront) or GitHub Pages with zero configuration.",
+  "description": "onekey is a simple JavaScript CLI to deploy static sites and front-end apps to Vercel in one command, returning a live URL instantly.",
   "main": "index.js",
   "bin": {
-    "pulstack": "index.js"
+    "onekey": "index.js"
   },
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Urjit Upadhyay",
   "license": "ISC",
   "dependencies": {
     "@pulumi/aws": "^6.83.0",

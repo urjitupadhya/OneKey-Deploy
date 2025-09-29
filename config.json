@@ -5,9 +5,7 @@
   "bucket": "q",
   "repo": "https://github.com/ShubhVarshney30/BeFocused",
   "ghToken": "",
-  "vercelToken": "git add .
-git commit -m "Remove secrets"
-",
+  "vercelToken": "UsrEY1FVv2LpYU9VzVdEtBas",
   "vercelProject": "pulstack-app",
   "stack": "dev",
   "s3Prefix": "",
