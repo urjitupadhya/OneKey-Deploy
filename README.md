@@ -1,33 +1,35 @@
-# ⚡ OneKey Deploy – Instant Deployment to Vercel
-
-`onekey` is a simple JavaScript CLI that lets you deploy static sites or front‑end apps (HTML/CSS/JS, React, Next.js) to Vercel in one command, giving you a live URL instantly.
+# ⚡ Pulstack – Instant Deployment to Vercel
 
 <p align="center">
   <img src="https://img.shields.io/badge/deploys%20to-vercel-000000?logo=vercel" alt="Vercel Badge">
   <img src="https://img.shields.io/badge/built%20with-javascript-yellow?logo=javascript" alt="JS Badge">
 </p>
 
+ ## 🔥 Quick 3‑Command Setup
+ 
+ ```bash
+ npm install -g pulstack
+ >> pulstack init
+ >> pulstack deploy --dir site --target vercel
+ ```
+ 
 ## 🧑‍💻 Who Is This For?
-
-Perfect if you:
-
+ 
 - Have a static or front‑end web project
 - Want quick deployment to Vercel without signing in via browser
 - Need a simple CLI workflow for demos, hackathons, or prototypes
-
-## ✨ Features
-
-- 🚀 Auto‑detects your project framework: HTML, React, Next.js
-- 🌐 One‑command deploy to Vercel
-- 💻 Returns a live URL instantly
-- ⚡ Lightweight CLI with clear prompts
-- 🔄 Optional `destroy` command to clean up deployments
+ ## ✨ Features
+ 
+ - 🚀 Auto‑detects your project framework: HTML, React, Next.js
+ - 🌐 One‑command deploy to Vercel
+ - 💻 Returns a live URL instantly
+ - ⚡ Lightweight CLI with clear prompts
+ - 🔄 Optional `destroy` command to clean up deployments
 
 ## 📦 Prerequisites
 
 - Node.js ≥ 14
 - Vercel account
-- Vercel token: Generate at https://vercel.com/account/tokens
 
 Verify Node.js installation:
 
@@ -48,7 +50,7 @@ npm install
 Or install the CLI globally:
 
 ```bash
-npm install -g onekey-deploy
+npm install -g pulstack
 ```
 
 ### 1) Prepare Project
@@ -59,7 +61,7 @@ Put your `index.html` and any assets in a folder, e.g., `my-site/`.
 
 ```bash
 cd my-site
-onekey init
+pulstack init
 ```
 
 Prompts:
@@ -72,7 +74,7 @@ Prompts:
 ### 3) Deploy Site
 
 ```bash
-onekey deploy --dir .
+pulstack deploy --dir .
 ```
 
 - `--dir` points to your site folder (where `index.html` is located)
@@ -81,7 +83,7 @@ onekey deploy --dir .
 ### 4) Optional: Destroy Deployment
 
 ```bash
-onekey destroy
+pulstack destroy
 ```
 
 - Cleans up deployed resources on Vercel
@@ -110,8 +112,8 @@ Contributions are welcome! Open issues or PRs on GitHub.
 ## ✅ Example Deployment
 
 ```bash
-onekey init
-onekey deploy --dir .
+pulstack init
+pulstack deploy --dir .
 ```
 
 Result:
