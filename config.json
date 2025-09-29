@@ -1,0 +1,13 @@
+{
+  "name": "yy",
+  "target": "vercel",
+  "region": "1",
+  "bucket": "q",
+  "repo": "https://github.com/ShubhVarshney30/BeFocused",
+  "ghToken": "",
+  "vercelToken": "UsrEY1FVv2LpYU9VzVdEtBas",
+  "vercelProject": "pulstack-app",
+  "stack": "dev",
+  "s3Prefix": "",
+  "cloudfront": false
+}
